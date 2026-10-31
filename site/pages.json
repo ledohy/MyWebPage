@@ -22,5 +22,6 @@
   "theme": [
     "template"
   ],
-  "title": "hugo-papermod"
+  "title": "이동현 | 포트폴리오",
+  "locale": "ko-KR"
 }

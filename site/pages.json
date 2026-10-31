@@ -23,5 +23,12 @@
     "template"
   ],
   "title": "이동현 | 포트폴리오",
-  "locale": "ko-KR"
+  "locale": "ko-KR",
+  "params": {
+    "profileMode": {
+      "enabled": true,
+      "title": "이동현",
+      "subtitle": "CS @ JBNU · Computer Vision"
+    }
+  }
 }

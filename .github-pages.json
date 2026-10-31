@@ -1,0 +1,13 @@
+{
+  "config": "pages.json",
+  "theme": "template",
+  "sample": null,
+  "version": "0.167.0",
+  "slug": "hugo-papermod",
+  "npm": [],
+  "asset_build": [],
+  "generator": "3.1",
+  "repo": "https://github.com/ledohy/MyWebPage.git",
+  "baseURL": "https://ledohy.github.io/MyWebPage/",
+  "audited": false
+}

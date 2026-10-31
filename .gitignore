@@ -10,3 +10,9 @@
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# OS 파일
+.DS_Store
+
+# Claude 앱이 이 폴더에 저장하는 결과물 (보고서 등, 사이트와 무관)
+/Claude outputs/

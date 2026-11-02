@@ -29,7 +29,14 @@
       "enabled": true,
       "title": "이동현",
       "subtitle": "CS @ JBNU · Computer Vision"
-    }
+    },
+    "socialIcons": [
+      {
+        "name": "github",
+        "title": "GitHub 프로필",
+        "url": "https://github.com/ledohy"
+      }
+    ]
   },
   "menus": {
     "main": [

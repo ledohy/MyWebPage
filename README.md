@@ -68,3 +68,14 @@ python3 .github/pages_build.py --build
 4. https://ledohy.github.io/MyWebPage/ 를 열어 변경이 반영됐는지 확인합니다. 예전 화면이 보이면 캐시 때문이므로 강력 새로고침(Cmd+Shift+R)하거나 시크릿 창으로 엽니다.
 
 GitHub Pages 설정: Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 둡니다.
+
+## 출처와 라이선스
+
+| 자료 | 구분 | 출처 | 이용 조건 |
+|---|---|---|---|
+| PaperMod 테마 (`site/themes/template/`, 저장소 루트의 원본 파일) | 외부 자료 | https://github.com/adityatelange/hugo-PaperMod | MIT License. 원본 [`LICENSE`](LICENSE)를 유지하고, 사이트 하단의 "Powered by Hugo & PaperMod" 표기를 유지합니다. |
+| Hugo | 외부 도구 | https://gohugo.io/ | Apache License 2.0 |
+| `prepare_github_pages.py`, `.github/pages_build.py`, `.github/workflows/hugo-pages.yml` | 외부 자료 | 초급프로젝트 수업 제공 스크립트 | 수업 과제용으로 제공받은 파일을 그대로 사용 |
+| 설정(`site/pages.json`)과 글(`site/content/`) | 직접 작성 (AI 도움 포함) | 본인 | 설정·글 초안에 AI(Claude)를 사용했고, 내용 판단·수정·확인은 본인이 했습니다. |
+
+테마 원본의 상세 안내는 [`site/themes/template/README.md`](site/themes/template/README.md)에 있습니다.

@@ -28,7 +28,17 @@
     "profileMode": {
       "enabled": true,
       "title": "이동현",
-      "subtitle": "CS @ JBNU · Computer Vision"
+      "subtitle": "CS @ JBNU · Computer Vision",
+      "buttons": [
+        {
+          "name": "소개",
+          "url": "about/"
+        },
+        {
+          "name": "활동",
+          "url": "activities/"
+        }
+      ]
     },
     "socialIcons": [
       {

@@ -14,8 +14,5 @@
 # OS 파일
 .DS_Store
 
-# Claude 앱이 이 폴더에 저장하는 결과물 (보고서 등, 사이트와 무관)
-/Claude outputs/
-
 # site 폴더에서 hugo / hugo server를 직접 실행하면 생기는 결과물
 /site/public/

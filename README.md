@@ -40,3 +40,31 @@ hugo server --config pages.json --theme template --themesDir themes
 cd MyWebPage
 python3 .github/pages_build.py --build
 ```
+
+## 수정할 파일 위치
+
+| 경로 | 내용 |
+|---|---|
+| `site/pages.json` | 사이트 설정: 제목, 언어, 주소(baseURL), 메뉴, 홈 프로필, GitHub 링크 |
+| `site/content/_index.md` | 홈 페이지 |
+| `site/content/about.md` | 소개 페이지 |
+| `site/content/activities/` | 활동 페이지 (활동 하나당 `.md` 파일 하나) |
+| `site/themes/template/` | PaperMod 테마 (빌드에 쓰는 사본) |
+| `.github/workflows/hugo-pages.yml` | 배포 워크플로 (Hugo 버전 지정) |
+| `.github/pages_build.py` | 빌드 스크립트 (하위 경로 `/MyWebPage/` 보정 포함) |
+
+저장소 루트의 `layouts/`, `assets/`, `i18n/` 등은 내려받은 PaperMod 원본 파일입니다. 빌드에는 `site/themes/template/` 사본을 사용합니다.
+
+## 수정하고 다시 배포하기
+
+1. 위 파일을 수정하고 `hugo server` 화면에서 결과를 확인합니다.
+2. 바꾼 파일만 골라 커밋하고 `main`에 push합니다.
+   ```bash
+   git add <수정한 파일>
+   git commit -m "수정 내용 요약"
+   git push origin main
+   ```
+3. 저장소 **Actions** 탭에서 `Deploy Hugo to GitHub Pages` 실행의 `build`와 `deploy`가 모두 성공했는지 확인합니다.
+4. https://ledohy.github.io/MyWebPage/ 를 열어 변경이 반영됐는지 확인합니다. 예전 화면이 보이면 캐시 때문이므로 강력 새로고침(Cmd+Shift+R)하거나 시크릿 창으로 엽니다.
+
+GitHub Pages 설정: Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 둡니다.

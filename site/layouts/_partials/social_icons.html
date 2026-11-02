@@ -1,0 +1,9 @@
+{{- /* PaperMod social_icons.html 재정의: 아이콘만 있는 링크에 접근 가능한 이름(aria-label) 추가 */ -}}
+<div class="social-icons" {{ with .align}}align="{{.}}" {{- end }}>
+    {{- range site.Params.socialIcons }}
+    <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+        title="{{ (.title | default .name) | title }}" aria-label="{{ .title | default .name }} (새 탭에서 열림)">
+        {{ partial "svg.html" . }}
+    </a>
+    {{- end }}
+</div>

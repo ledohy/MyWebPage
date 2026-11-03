@@ -1,0 +1,25 @@
+/* 404 안내 화면 (site/layouts/404.html) */
+.not-found-page {
+    padding: 10vh 0;
+    text-align: center;
+}
+
+.not-found-code {
+    margin: 0;
+    font-size: clamp(72px, 25vw, 160px);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.not-found-page h1 {
+    margin: 16px 0 8px;
+    font-size: 24px;
+}
+
+.not-found-home {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 8px 16px;
+    border-radius: var(--radius);
+    background: var(--tertiary);
+}

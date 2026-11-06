@@ -2,9 +2,9 @@
 {{- define "main" }}
 <div class="not-found-page">
     <p class="not-found-code" aria-hidden="true">404</p>
-    <h1>페이지를 찾을 수 없습니다</h1>
-    <p>주소가 잘못되었거나 없는 페이지입니다.</p>
+    <h1>Page not found</h1>
+    <p>The address may be wrong, or the page doesn't exist.</p>
     {{- /* 404 페이지는 아무 경로에서나 열리므로 상대경로가 아닌 전체 주소로 홈을 가리킨다 */}}
-    <a class="not-found-home" href="{{ site.Home.Permalink }}">홈으로 돌아가기</a>
+    <a class="not-found-home" href="{{ site.Home.Permalink }}">Back to home</a>
 </div>
 {{- end }}{{/* end main */ -}}

@@ -23,7 +23,7 @@
 <body id="top">
 {{- end }}
     {{- /* 키보드 사용자가 메뉴를 건너뛰고 본문으로 바로 이동하는 링크 (Tab 첫 번째 위치) */}}
-    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+    <a class="skip-link" href="#main">Skip to main content</a>
     {{ partialCached "header.html" . .Page -}}
     <main class="main" id="main" tabindex="-1">
         {{- block "main" . }}{{ end }}

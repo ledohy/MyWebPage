@@ -4,7 +4,7 @@ summary: "Preparing labeled video data and running models for lab research"
 ShowToc: true
 ---
 
-**Period:** [확인: 시작 시기] – present · **Status:** In progress
+**Period:** Jan 2026 – present · **Status:** In progress
 **Type:** Lab research (team) · **My role:** Data preparation and model runs
 
 ## Goal {#goal}

@@ -1,4 +1,4 @@
 ---
-title: "활동"
-description: "직접 해 본 프로젝트, 수업 실습, 연구 활동"
+title: "Activities"
+description: "Projects, coursework, and research I have worked on"
 ---

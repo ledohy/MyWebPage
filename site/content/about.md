@@ -1,9 +1,9 @@
 ---
-title: "소개"
-description: "이동현 — 관심 분야, 학습 목표, 사용하는 기술"
+title: "About"
+description: "이동현 — interests, learning goals, and tools I use"
 ShowToc: true
 TocOpen: true
 ---
 
-안녕하세요, 전북대학교 컴퓨터공학부 **이동현**입니다.
-학부 연구실 BRL(Behavior Recognition Lab)에서 영상 데이터를 다루며 컴퓨터 비전을 공부하고 있습니다.
+Hi, I'm **이동현**, a computer science student at Jeonbuk National University (JBNU).
+I'm an undergraduate researcher at BRL (Behavior Recognition Lab), where I work with video data for computer vision research.

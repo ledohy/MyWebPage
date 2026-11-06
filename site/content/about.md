@@ -23,3 +23,13 @@ Next steps:
 1. Read the SAM and SAM 2 papers and write a one-page summary of each.
 2. Compare what each paper says with how the official code actually implements it.
 3. Train a small segmentation model myself and compare it with a pretrained one.
+
+## Skills and where I used them {#skills}
+
+| Skill / Tool | Where I used it |
+|---|---|
+| Python, OpenCV, ffmpeg | Extracting and preprocessing video frames at the lab |
+| LabelMe | Polygon labeling of video frames for lab research |
+| Linux, SSH | Setting up and debugging model environments on the lab's GPU server |
+| Kotlin, Firebase | Building an Instagram-style photo sharing app for Android (course project) |
+| Hugo, Git, GitHub Actions | Building and deploying this site |

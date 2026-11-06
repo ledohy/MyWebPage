@@ -71,5 +71,6 @@
       }
     ]
   },
-  "defaultContentLanguage": "en"
+  "defaultContentLanguage": "en",
+  "taxonomies": {}
 }

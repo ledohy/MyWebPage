@@ -22,8 +22,8 @@
   "theme": [
     "template"
   ],
-  "title": "이동현 | 포트폴리오",
-  "locale": "ko-KR",
+  "title": "이동현 | Portfolio",
+  "locale": "en-US",
   "params": {
     "profileMode": {
       "enabled": true,
@@ -31,11 +31,11 @@
       "subtitle": "CS @ JBNU · Computer Vision",
       "buttons": [
         {
-          "name": "소개",
+          "name": "About",
           "url": "about/"
         },
         {
-          "name": "활동",
+          "name": "Activities",
           "url": "activities/"
         }
       ]
@@ -43,7 +43,7 @@
     "socialIcons": [
       {
         "name": "github",
-        "title": "GitHub 프로필",
+        "title": "GitHub profile",
         "url": "https://github.com/ledohy"
       }
     ],
@@ -59,17 +59,17 @@
     "main": [
       {
         "identifier": "about",
-        "name": "소개",
+        "name": "About",
         "pageRef": "/about",
         "weight": 10
       },
       {
         "identifier": "activities",
-        "name": "활동",
+        "name": "Activities",
         "pageRef": "/activities",
         "weight": 20
       }
     ]
   },
-  "defaultContentLanguage": "ko"
+  "defaultContentLanguage": "en"
 }

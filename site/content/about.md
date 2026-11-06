@@ -7,3 +7,9 @@ TocOpen: true
 
 Hi, I'm **이동현**, a computer science student at Jeonbuk National University (JBNU).
 I'm an undergraduate researcher at BRL (Behavior Recognition Lab), where I work with video data for computer vision research.
+
+## Interests {#interests}
+
+I'm interested in computer vision, especially segmentation and 3D reconstruction.
+
+I got into it through labeling work at the lab. When you outline objects by hand, you keep having to decide where one object ends and another begins, or what to do with something that's partly hidden. Those small decisions affect what the model learns, and that's what made me want to understand the models themselves.

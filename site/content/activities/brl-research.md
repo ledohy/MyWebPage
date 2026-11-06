@@ -4,8 +4,10 @@ summary: "Preparing labeled video data and running models for lab research"
 ShowToc: true
 ---
 
-**Period:** Jan 2026 – present · **Status:** In progress
-**Type:** Lab research (team) · **My role:** Data preparation and model runs
+- **Period:** Jan 2026 – present
+- **Status:** In progress
+- **Type:** Lab research (team)
+- **My role:** Data preparation and model runs
 
 ## Goal {#goal}
 

@@ -22,3 +22,11 @@ This was a solo project. I built:
 - A follow system and a follower/following list
 - One-on-one chat that updates in real time, and a chat list showing all conversations
 - A map tab that shows where photos were posted
+
+## Process and why {#process}
+
+I used Kotlin with Firebase Authentication and Firestore, so I didn't have to run my own server.
+
+Images are compressed and stored as text (Base64) inside Firestore instead of in a separate file storage service. This kept the whole app on Firebase's free plan and in a single database, without setting up another service.
+
+For chat rooms, I made the room ID by sorting the two users' IDs and joining them. That way both users always get the same room without looking it up first.

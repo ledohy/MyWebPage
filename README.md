@@ -49,7 +49,11 @@ python3 .github/pages_build.py --build
 | `site/content/_index.md` | 홈 페이지 |
 | `site/content/about.md` | 소개 페이지 |
 | `site/content/activities/` | 활동 페이지 (활동 하나당 `.md` 파일 하나) |
+| `site/layouts/` | 테마 템플릿 재정의: 404 화면, 본문 바로가기(`baseof.html`), GitHub 아이콘 aria-label |
+| `site/assets/css/extended/` | 추가 스타일 (404 화면, 본문 바로가기) |
+| `site/static/favicon.svg` | 사이트 아이콘 |
 | `site/themes/template/` | PaperMod 테마 (빌드에 쓰는 사본) |
+| `docs/verification/` | 공개 사이트 기능 검증 기록과 캡처 |
 | `.github/workflows/hugo-pages.yml` | 배포 워크플로 (Hugo 버전 지정) |
 | `.github/pages_build.py` | 빌드 스크립트 (하위 경로 `/MyWebPage/` 보정 포함) |
 
@@ -68,6 +72,10 @@ python3 .github/pages_build.py --build
 4. https://ledohy.github.io/MyWebPage/ 를 열어 변경이 반영됐는지 확인합니다. 예전 화면이 보이면 캐시 때문이므로 강력 새로고침(Cmd+Shift+R)하거나 시크릿 창으로 엽니다.
 
 GitHub Pages 설정: Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 둡니다.
+
+## 검증 기록
+
+공개 사이트에서 배포·경로/자산·메뉴/링크·반응형·키보드 다섯 영역을 직접 검사한 결과는 [`docs/verification/README.md`](docs/verification/README.md)에 있습니다. 검사별 조건, 예상 결과, 실제 결과, 캡처 파일을 함께 정리했습니다.
 
 ## 출처와 라이선스
 

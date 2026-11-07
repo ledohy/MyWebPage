@@ -35,3 +35,9 @@ For chat rooms, I made the room ID by sorting the two users' IDs and joining the
 
 - A working Android app with all the features above, tested on a real device (Samsung Galaxy S22+), not just the emulator
 - A project report and a short demo video, both submitted for the course
+
+## What I learned / next {#next}
+
+Designing the database was harder than building the screens. Deciding where likes, comments, and follows should live in Firestore changed how simple each screen's code could be.
+
+Firestore limits how large a single document can be, so storing images as Base64 only works for small, compressed photos. The next step would be moving images to proper file storage and keeping only their links in the database.

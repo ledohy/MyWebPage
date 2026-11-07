@@ -2,6 +2,7 @@
 title: "Instagram-style photo sharing app (Android)"
 summary: "Individual Android app project for the Mobile Programming course"
 ShowToc: true
+weight: 2
 ---
 
 - **Period:** Spring 2026 (Mobile Programming course)

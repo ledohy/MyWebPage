@@ -2,6 +2,7 @@
 title: "Video data pipeline for computer vision research (BRL)"
 summary: "Preparing labeled video data and running models for lab research"
 ShowToc: true
+weight: 1
 ---
 
 - **Period:** Jan 2026 – present
